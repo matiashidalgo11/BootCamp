@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container-main{
+  
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+    background-color: gray;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.container-cards{
+  
+    
+    background-color: grey;
+    
+}
+
+.card{
+    
+    position: relative;
+    left: 10px;
+    height: 600px;
+    width: 450px;
+    background-color: white;
+}
+
+.container-img-icons{
+    position: relative;
+    background-image: url(/img/photo-1574007557239-acf6863bc375.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+}
+
+
+.container-icon-text{
+
+    position: absolute;  
+    margin: 0 5% 3% 0;
+    bottom: 0;
+    left: 5%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.icon-text{
+    display: inline;
+    margin:  8px;
+
+}
+
+.container-card-info{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    
+}
+
+.container-aux{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+
+.img-profile{
+
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 60%;
+    background-image: url(/img/photo-1438761681033-6461ffad8d80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    top: 10%;
+
+}
+
+.text-profile{
+    
+    display: inline-block;
+    
+}
+
+.text-profile h3{
+    font-size: 2rem;
+}
+
+.text-profile p{
+    color: gray;
+}
+
+/* Card 2 */
+
+#cardDos{
+    border-radius: 20px;
+}
+
+.container-img{
+    background-image: url(/img/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 34%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.container-text-main{
+    height: 22%;
+    width: 70%;
+ 
+    margin: 10px auto;
+    text-align: center;
+}
+
+.container-text-main h2{
+    margin: 30px 0 0 0;
+}
+
+.container-text-main p{
+
+    padding: 8% 0;
+    color: gray;
+}
+
+.container-plan-icons{
+    position: relative;
+
+
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+
+    background-color: rgb(206, 201, 201);
+    border-radius: 10px;
+    padding: 15px 0;
+
+
+}
+
+
+.container-icon-music{
+
+    position: relative;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    
+    
+    
+}
+
+.container-icon-music i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+.container-type-valor{
+    
+    text-align: left;
+    display: inline-block;
+    margin-right: 72px;
+    margin-left: 10px;
+    padding:  5px;
+    
+
+}
+
+.container-plan-icons a{
+   
+
+    display: inline-block;
+ 
+    padding-left: 10px;
+    
+
+}
+
+
+
+/* Botones */
+
+.container-buttoms{
+    position: relative;
+    width: 75%;
+    height: 20%;
+    top: 8px;
+    margin: 0 auto;
+}
+
+
+.buttomUno{
+
+    position: relative;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 10px;
+    background-color: rgb(53, 53, 235);
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+}
+
+.buttomDos{
+
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    color: rgb(78, 78, 238);
+    top: 20px;
+   
+
+
+}
+
+#cardUno, #cardDos{
+    float: left;
+    margin: 0 10px;
+    top: 10px;
+}
+

@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: gray;
+}
+
+.main-container{
+
+    display: flex;
+
+    width: 1200px;
+    height: 700px;
+
+    border-radius: 10px;
+
+    margin: 20px auto;
+
+}
+
+.parteUno, .parteDos{
+
+    width: 50%;
+    height: 100%; 
+}
+
+.parteUno{
+    
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(-45deg, #e5890b, #d8dc87 );
+
+    border-radius: 10px 0 0 10px;
+}
+
+.parteUno h2{
+    width: 80%;
+    font-size: 3.5rem;
+    text-align: center;
+
+    margin-top: 80px;
+    color: white;
+}
+
+.buttoms-container{
+
+    width: 80%;
+    height: 450px;
+    margin-top: 28px;
+
+}
+
+.parteUno a{
+
+    display: flex;
+
+    margin: 30px 0;
+
+    height: 75px;
+
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.parteUno a div{
+
+    width: 20%;
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.parteUno a span{
+
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+#facebook .icon-container{
+    background: #34548c ;
+}
+
+#facebook{
+    background: #3c5c9b ;
+}
+
+#twitter .icon-container{
+    background: #549ccc  ;
+}
+
+#twitter{
+    background: #54acec  ;
+}
+
+#google .icon-container{
+    background: #c54434 ;
+}
+
+#google{
+    background: #db4c3c  ;
+}
+
+#behance .icon-container{
+    background: #14131a  ;
+}
+
+#behance{
+    background: #444444  ;
+}
+
+
+/* Parte Dos */
+
+.parteDos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    border-radius: 0 10px 10px 0;
+
+}
+
+.parteDos h3{
+    width: 80%;
+    font-size: 1.8rem;
+    margin-top: 78px;
+}
+
+.form-container{
+    width: 80%;
+    margin-top: 50px;
+    
+}
+
+.input-container{
+
+    border: 1px solid #f3b93d ;
+    height: 76px;
+
+    margin: 30px 0;
+}
+
+.input-container input{
+
+    height: 100%;
+    width: 80%;
+    font-size: 1.3rem;
+
+    outline: none;
+    background: none;
+    border: none;
+
+    margin: 0 25px;
+
+    color: gray;
+}
+
+.input-container i{
+    color: gray;
+}
+
+.form-container a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    text-decoration: none;
+    height: 75px;
+    
+    background: linear-gradient(-45deg, #74ac2c, #87c535 );
+    border-radius: 10px;
+
+    font-size: 2rem;
+    color: white;
+}

@@ -1,0 +1,15 @@
+/* Si se colola margin:0; en el * hace que todos los elementos por defecto no los tenga mas */
+
+*{
+    background: grey;
+}
+
+
+
+.block{
+    background: red;
+}
+
+.inline{
+    background: blue;
+}

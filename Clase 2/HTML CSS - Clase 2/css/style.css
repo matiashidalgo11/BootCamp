@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}  
+
+body{
+    background-image: url("https://image.freepik.com/free-photo/white-paper-texture_1194-5416.jpg");
+}
+
+header{
+    background: red;
+    text-align: center;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteiner-cards{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    justify-content: center;
+}
+
+.card{
+
+    
+    background: rgb(253, 72, 72) ;
+    text-align: center;
+    margin: 15px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px grey;
+    transition: 0.50s;
+}
+
+.card:hover{
+    background: #4a4a4a;
+    transform: translateY(-15px);
+}
+
+
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}

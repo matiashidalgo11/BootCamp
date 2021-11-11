@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box-r{
+
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    /* opacity: 0.5; */
+    left: 200px;
+    top: 85px;
+}
+
+.box-a{
+
+    background-image: url(/img/outrun-vaporwave-hd-wallpaper-preview.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+
+}

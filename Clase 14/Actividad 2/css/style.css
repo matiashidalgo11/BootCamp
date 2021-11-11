@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+:root{
+    --color-black:#212121;
+}
+
+span{
+    display: block;
+}
+
+nav{
+    background: #fff;
+    position:fixed;
+    width: 100%;
+    color: var(--color-black);
+}
+.nav-top{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center
+}
+nav ul li{
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.active{ 
+    border-bottom: 1px solid #00754a;
+}
+.logo{
+    height:50px;
+}
+.button-sign-in{
+    background:#fbfbfb;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+.button-join-now{
+    background:#000000;
+    color:#e2e2e2;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 20px;
+}
+.nav-bottom{
+    background: #1e3932;
+    color: #ffffff;
+    padding: 9px 0 9px 70px;
+}
+.nav-bottom h3{
+    font-size: 0.9rem;
+}
+
+/* -----------------------Sections ---------------------------------------*/
+
+
+.sectionUno{
+    display: flex;
+    height: 100vh;
+    background-color: #D4E9E2;
+    padding: 128px 0 0 0;
+}
+
+
+.unoIzq{
+    width: 50%;
+}
+
+.unoIzq h3{
+    font-size: 3.8rem;
+    margin: 333px 450px 0 70px;
+}
+
+.unoIzq span{
+
+    font-size: 1.6rem;
+    margin: 30px 0 0 70px;
+
+}
+
+.button-join{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 70px;
+
+    width: 110px;
+    height: 40px;
+    
+    font-size: 1.1rem;
+    background-color: #027649;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.unoIzq p {
+    font-size: 1.6rem;
+    margin: 10px 0 0 70px;
+}
+
+.unoIzq p a{
+    color: black;
+}
+
+.unoDer{
+    display: flex;
+    width: 50%;
+}
+
+/* Section 2 */
+
+.sectionDos{
+
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionDos h3{
+    font-size: 2.5rem;
+    margin-top: 200px;
+}
+
+.sectionDos span{
+
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.steps-container{
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+
+    margin-top: 70px;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.num-container{
+
+    outline: 2px solid #295A4C;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+
+    font-size: 2.5rem;
+    color: #295A4C;
+}
+
+.step span{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 60px 0 20px 0;
+
+}
+
+.step p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.step p a{
+    color: rgb(12, 221, 12);
+}
