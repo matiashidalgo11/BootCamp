@@ -1,0 +1,1 @@
+Actividad del dia 12/11/2021 en equipo con Facundo Perez.
