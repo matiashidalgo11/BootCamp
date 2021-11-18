@@ -1,0 +1,1 @@
+Actividad en grupo del dia 17/11/2021. Integrantes: Pablo Nader, Ivan Zurlis, Matias Hidalgo.
