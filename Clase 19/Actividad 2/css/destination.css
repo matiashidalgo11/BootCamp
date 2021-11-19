@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+:root{
+    --greysoft:rgba(255, 255, 255, 0.76);
+}
+
+body{
+   
+    background-image: url("../starter-code/assets/destination/background-destination-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Section Destination */
+
+#Destination{
+
+    display: flex;
+
+    margin: 20px auto;
+    width: 70%;
+    height: 80vh;
+ 
+}
+
+.izq-section-destination, .der-section-destination{
+    width: 50%;
+}
+
+/* Section Destination // Parte Izquierda */
+
+.izq-section-destination{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.izq-section-destination span{
+    color: grey;
+}
+
+.izq-section-destination h2{
+    color: white;
+    font-size: 2rem;
+    margin: 2% 0 0 0;
+}
+
+.izq-section-destination img{
+
+    position: relative;
+
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+
+}
+
+/* Section Destination // Parte Derecha */
+
+.nav-destination{
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 25% 0 25px 0;
+}
+
+.nav-destination a{
+    
+    
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 6px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.nav-destination a:hover, .nav-destination a:focus{
+    border-bottom: 3px solid white;
+    margin-bottom: -3px;
+}
+
+.destination-place{
+
+    color: white;
+    font-size: 7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.description-destination{
+    color: var(--greysoft);
+    margin: 20px 20% 0 0;
+}
+
+.separador-destination{
+
+    margin: 60px 0 40px 0;
+    width: 80%;
+    color: var(--greysoft);
+}
+
+.info-destination{
+
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    color: var(--greysoft);
+}
+
+
+.info-izq span, .info-der span{
+    font-size: 0.7rem;
+}
+
+.info-izq h4, .info-der h4{
+    font-size: 1.6rem;
+    font-weight: initial;
+}
