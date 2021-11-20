@@ -1,0 +1,13 @@
+.container {
+  overflow: hidden;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h3 {
+  color: rgba(0,0,0,0.8);
+}

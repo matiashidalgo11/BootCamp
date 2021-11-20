@@ -1,0 +1,18 @@
+.visit-item-favorite {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.14);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+}
+
+.visit-item-favorite .fas {
+	color: var(--color-blue);
+}

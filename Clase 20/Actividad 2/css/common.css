@@ -1,0 +1,76 @@
+.visits,
+.benefits {
+	width: 80%;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.benefits {
+	border-radius: 4px;
+}
+
+.last-visits,
+.based-visits {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.visits-header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	padding: 10px 0;
+}
+
+.visits-header > a {
+	margin-left: 10px;
+}
+
+.visits-items {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.visit-item {
+	height: 250px;
+	width: 200px;
+	border-radius: 4px;
+	background-color: var(--white);
+	position: relative;
+}
+
+.visit-item-header {
+	height: 70%;
+	overflow: hidden;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.visit-item-header:hover {
+	background-color: #ddd;
+}
+
+.visit-item-header-img {
+	width: 80%;
+	height: 80%;
+	object-fit: contain;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.visit-item-body {
+	height: 30%;
+}
+
+.visit-item-body > p {
+	padding: 20px 10px;
+}

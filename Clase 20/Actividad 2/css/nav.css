@@ -1,0 +1,127 @@
+.header > .nav {
+  background-color: #fff159;
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* top nav */
+.top {
+  height: 56px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-search-product {
+  overflow: hidden;
+}
+
+.search {
+  background-color: #fff;
+  width: 500px;
+}
+
+.search input {
+  border: none;
+  font-size: 0.8rem;
+  padding: 10px;
+  width: 90%;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-left: 1px solid #ccc;
+}
+
+.search button > i {
+  color: #777;
+}
+
+.ads img {
+  max-width: 340px;
+  max-height: 39px;
+}
+
+/* bottom nav */
+.address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address a {
+  text-decoration: none;
+  color: rgba(51,51,51,.9);
+}
+
+.address-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-user-info > span {
+  color: rgba(51,51,51,.6);
+  font-size: 0.8rem;
+}
+
+.user-location {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.address a > i {
+  font-size: 1.5rem;
+}
+
+.address span {
+  padding-left: 20px;
+}
+
+.navigation {
+  position: relative;
+}
+
+/* user cp */
+.user-cp {
+  position: relative;
+}
+
+.ul-links {
+  display: flex;
+  list-style: none;
+}
+
+.ul-links a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: rgba(51,51,51,.6);
+  transition: all .2s ease-in-out;
+}
+
+.ul-links a:hover {
+  color: rgba(51,51,51,.9);
+}
+
+.ul-links > li {
+  padding: 0 10px;
+}
+
+.dropdown i.fas {
+  font-size: 1rem;
+}

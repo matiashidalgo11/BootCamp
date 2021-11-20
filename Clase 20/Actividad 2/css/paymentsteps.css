@@ -1,0 +1,86 @@
+.info-final {
+  background-color: white;
+}
+
+.info-principal {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 350px;
+}
+
+.info-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.info-item h4 {
+  margin: 35px 0 15px 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.info-item p {
+  font-size: 1rem;
+  text-align: center;
+  color: gray;
+}
+
+.info-item a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 5px 0 30px 0;
+  color: #3483FA;
+}
+
+.info-principal hr {
+  height: 100px;
+  margin: auto 0;
+}
+
+.info-secundaria {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+
+.info-sec-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 48%;
+  font-size: 0.8rem;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-sec-item a {
+  text-decoration: none;
+  color: #3483FA;
+}
+
+.finance-info {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 0;
+}
+
+.finance-info img:nth-child(1) {
+  margin: 0 20px;
+  width: 250px;
+}
+
+.finance-info img:nth-child(2) {
+  width: 80px;
+}

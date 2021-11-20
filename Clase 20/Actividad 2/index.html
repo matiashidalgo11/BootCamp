@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<title>Mercado Libre</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<!-- NAV -->
+		<header class="header">
+		  <nav class="nav">
+				<div class="navbar">
+					<div class="top">
+						<div class="logo">
+							<a href="#">
+								<img src="img/logo__large_plus.png" alt="Mercado Libre!">
+							</a>
+						</div>
+						<div class="search">
+							<form method="POST" action="" class="form-search-product">
+								<input type="search" placeholder="Buscar productos, marcas y más..." autofocus>
+								<button class="search" type="submit">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<div class="ads">
+							<a href="#">
+								<img src="https://http2.mlstatic.com/D_NQ_687763-MLA48230930496_112021-OO.jpg" alt="Disney +">
+							</a>
+						</div>
+					</div>
+					<div class="bottom">
+						<div class="address">
+							<a href="#">
+								<i class="fas fa-map-marker-alt"></i>
+							</a>
+							<div class="address-user-info">
+								<span class="user-info">Enviar a Usuario</span>
+								<span class="user-location">Localidad</span>
+							</div>
+						</div>
+						<div class="navigation">
+							<ul class="ul-links">
+								<li class="dropdown"><a href="#">Categorías</a></li>
+								<li><a href="#">Ofertas</a></li>
+								<li><a href="#">Historial</a></li>
+								<li><a href="#">Supermercado</a></li>
+								<li><a href="#">Moda</a></li>
+								<li><a href="#">Vender</a></li>
+								<li><a href="#">Ayuda</a></li>
+							</ul>
+						</div>
+						<div class="user-cp">
+							<ul class="ul-links">
+								<li class="dropdown">
+									<a href="#">
+										<i class="fas fa-user-circle"></i> Usuario
+									</a>
+								</li>
+								<li>
+									<a href="#">Mis compras</a>
+								</li>
+								<li>
+									<a href="#">Favoritos</a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-bell"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-shopping-cart"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		  </nav>
+		</header>
+		<!-- CARROUSEL -->
+		<section class="carrousel-slider">
+	    <div class="carrousel-container">
+				<div class="slideshow-container">
+				  <div class="my-slides slider-fade">
+				    <div class="slider-numbertext">1 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_791819-MLA48272097841_112021-OO.webp">
+				  </div>
+				  <div class="my-slides slider-fade">
+				    <div class="slider-numbertext">2 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_765430-MLA48194001644_112021-OO.webp">
+				  </div>
+				  <div class="my-slides slider-fade">
+				    <div class="slider-numbertext">3 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_744057-MLA48186631880_112021-OO.webp">
+				  </div>
+					<div class="my-slides slider-fade">
+				    <div class="slider-numbertext">4 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_621445-MLA48211449428_112021-OO.webp">
+				  </div>
+					<div class="my-slides slider-fade">
+				    <div class="slider-numbertext">5 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_943272-MLA48109298886_112021-OO.webp">
+				  </div>
+					<div class="my-slides slider-fade">
+				    <div class="slider-numbertext">6 / 6</div>
+				    <img class="img-carrousel" src="https://http2.mlstatic.com/D_NQ_948129-MLA48180900801_112021-OO.webp">
+				  </div>
+				  <a class="btn-slider-prev" id="btnSliderPrev">&#10094;</a>
+				  <a class="btn-slider-next" id="btnSliderNext">&#10095;</a>
+				</div>
+			</div>
+	  </section>
+		<!-- PAYMENT -->
+		<div class="payment-methods">
+			<div class="payment-option">
+			  <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg" alt="Tarjeta de crédito">
+			  <div class="text">
+			    <span>Tarjeta de Crédito</span>
+			    <span><a href="#">Ver promociones bancarias</a></span>
+			  </div>
+			</div>
+			<div class="payment-option">
+			  <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/debit-card.svg" alt="Tarjeta de débito">
+			  <div class="text">
+			    <span>Tarjeta de débito</span>
+			    <span><a href="#">Ver más</a></span>
+			  </div>
+			</div>
+      <div class="payment-option">
+        <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/mercado-creditsv2.svg" alt="Cuotas sin tarjeta">
+        <div class="text">
+          <span>Cuotas sin tarjeta</span>
+          <span><a href="#">Conocé Mercado Crédito</a></span>
+        </div>
+      </div>
+      <div class="payment-option">
+        <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/payment-agreement.svg" alt="Efectivo">
+        <div class="text">
+          <span>Efectivo</span>
+          <span><a href="#">Ver más</a></span>
+        </div>
+      </div>
+      <div class="payment-plus">
+        <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/view-more.svg" alt="Ver más">
+      </div>
+	  </div>
+		<!-- LAST VISIT - HISTORY-->
+		<section class="visits">
+			<div class="visits-header">
+				<h3>Basado en tu última visita</h3>
+				<a href="#">Ver historial</a>
+			</div>
+			<div class="last-visits">
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- VISITS - HISTORY -->
+		<section class="visits">
+			<div class="visits-header">
+				<h3>Relacionado con tus visitas en Frutas Tropicales</h3>
+				<a href="#">Ver historial</a>
+			</div>
+			<div class="based-visits">
+				<div class="visits-items">
+					<div class="visit-item">
+						<div class="visit-item-favorite">
+							<span><i class="fas fa-heart"></i></span>
+						</div>
+						<div class="visit-item-header">
+							<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+						</div>
+						<div class="visit-item-body">
+							<p><span>$</span> 300 <sup>00</sup></p>
+						</div>
+					</div>
+				</div>
+				<div class="visits-items">
+				<div class="visit-item">
+					<div class="visit-item-favorite">
+						<span><i class="fas fa-heart"></i></span>
+					</div>
+					<div class="visit-item-header">
+						<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+					</div>
+					<div class="visit-item-body">
+						<p><span>$</span> 300 <sup>00</sup></p>
+					</div>
+				</div>
+			</div>
+			<div class="visits-items">
+				<div class="visit-item">
+					<div class="visit-item-header">
+						<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+					</div>
+					<div class="visit-item-body">
+						<p><span>$</span> 300 <sup>00</sup></p>
+					</div>
+				</div>
+			</div>
+			<div class="visits-items">
+				<div class="visit-item">
+					<div class="visit-item-header">
+						<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+					</div>
+					<div class="visit-item-body">
+						<p><span>$</span> 300 <sup>00</sup></p>
+					</div>
+				</div>
+			</div>
+			<div class="visits-items">
+				<div class="visit-item">
+					<div class="visit-item-header">
+						<img class="visit-item-header-img" src="img/pineapple.png" alt="jar">
+					</div>
+					<div class="visit-item-body">
+						<p><span>$</span> 300 <sup>00</sup></p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<!-- LEVEL AND BENEFITS -->
+		<section class="benefits subs-benefits">
+			<div class="subs-header">
+				<div class="sub-level">
+					<h3>Suscribite al nivel 6</h3>
+				</div>
+				<div class="sub-price">
+					<h3>$ 449</h3>
+					<p>el primer mes</p>
+				</div>
+			</div>
+			<div class="subs-description">
+				<p>Conseguí los mejores beneficios en Mercado Libre y Mercado Pago</p>
+			</div>
+			<div class="subs-includes">
+				<div class="subs-includes-item">
+					<div class="subs-includes-item-img">
+						<img class="subs-img" src="img/disney-plus-logo.png" alt="">
+					</div>
+					<div class="subs-includes-item-description">
+						<p>Disney <sup>+</sup> incluído</p>
+					</div>
+				</div>
+				<div class="subs-includes-item">
+					<div class="subs-includes-item-img">
+						<img class="subs-img" src="img/star-logo-1024x576.png" alt="">
+					</div>
+					<div class="subs-includes-item-description">
+						<p>Star <sup>+</sup> incluído</p>
+					</div>
+				</div>
+				<div class="subs-includes-item">
+					<div class="subs-includes-item-img">
+						<i class="fas fa-truck"></i>
+					</div>
+					<div class="subs-includes-item-description">
+						<p>Envíos gratis y rápidos desde $ 3.500 y 45 % OFF en envíos de menos de $ 3.500</p>
+					</div>
+				</div>
+			</div>
+			<div class="subs-subscribe">
+				<div class="subscribe-info">
+					<p>Primer mes con precio promocional</p>
+				</div>
+				<div class="subscribe-sub">
+					<button class="btn btn-subscribe">Suscribite</button>
+				</div>
+			</div>
+		</section>
+		<!-- POINTS AND BENEFITS -->
+		<section class="benefits points-benefits">
+			<div class="points-benefits-header">
+				<h3>Beneficios de Mercado Puntos</h3>
+				<a href="#">Ver todos los beneficios</a>
+			</div>
+			<div class="points-benefits-items">
+				<div class="points-benefits-item">
+					<div class="points-benefits-bg-img">
+						<img class="points-img" src="img/comboplus-mco-mla-mlm@2x.jpg" alt="">
+						<div class="points-benefits-description">
+							<div class="description-img">
+								<img src="img/disney-plus-logo.png" alt="disney" class="desc-img">
+							</div>
+							<div class="description-explanation">
+								<h3>Suscribite al nivel 6</h3>
+								<p>Disney <sup>+</sup> y Star <sup>+</sup> incluídos con su suscripción</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="points-benefits-item">
+					<div class="points-benefits-bg-img">
+						<img class="points-img" src="img/hbo-max-mla-mco-mlc@2x.jpg" alt="">
+						<div class="points-benefits-description">
+							<div class="description-img">
+								<img src="img/hbo-max-logo_239x209.png" alt="hbo max" class="desc-img">
+							</div>
+							<div class="description-explanation">
+								<p>7 días gratis</p>
+								<h3>Hasta 50% OFF</h3>
+								<p>HBO Max</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="points-benefits-item">
+					<div class="points-benefits-bg-img">
+						<img class="points-img" src="img/paramount-widget-mla@2x.jpg" alt="">
+						<div class="points-benefits-description">
+							<div class="description-img">
+								<img src="img/paramount-plus-logo-0-2048x2048.png" alt="paramount plus" class="desc-img">
+							</div>
+							<div class="description-explanation">
+								<p>7 días gratis</p>
+								<h3>Hasta 40% OFF</h3>
+								<p>Paramount <sup>+</sup></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- POPULAR CATEGORIES -->
+		<section class="categorias-populares" id="categorias-populares">
+		  <div class="categoria-header">
+				<h3>Categorias populares</h3>
+				<div class="slick-dots">
+				  <a href="">.</a>
+				  <a href="">.</a>
+				  <a href="">.</a>
+				</div>
+		  </div>
+		  <div class="page-categoria">
+				<div class="item-categoria">
+				  <i class="fas fa-car"></i> 
+				  <span>Autos, Motos y Otros</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-desktop"></i> 
+				  <span>Computacion</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-utensils"></i> 
+				  <span>Electrodomésticos y Aires Ac.</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-futbol"></i> 
+				  <span>Deportes y Fitness</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-building"></i> 
+				  <span>Inmuebles</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-hand-holding-medical"></i> 
+				  <span>Belleza y Cuidado Personal</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-dog"></i> 
+				  <span>Juegos y Juguetes</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-mobile-alt"></i> 
+				  <span>Celulares y Teléfonos</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-microphone"></i> 
+				  <span>Electrónica, Audio y Video</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-tshirt"></i> 
+				  <span>Ropa y accesorios</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-couch"></i> 
+				  <span>Hogar, Muebles y Jardín</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-car-battery"></i> 
+				  <span>Accesorios para vehículos</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-gamepad"></i> 
+				  <span>Consolas y Videojuegos</span>
+				</div>
+				<div class="item-categoria">
+				  <i class="fas fa-wine-bottle"></i> 
+				  <span>Alimentos y Bebidas</span>
+				</div>
+		  </div>
+		</section>
+		<!-- PAYMENT STEPS -->
+		<section class="info-final" id="info-final">
+		  <div class="info-principal">
+				<div class="info-item">
+				  <img src="img/payment.svg" alt="">
+				  <h4>Elegí cómo pagar</h4>
+				  <p>Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin tarjeta con Mercado Crédito.</p>
+				  <a href="">Cómo pagar tus compras</a>
+				</div>
+				<hr>
+				<div class="info-item">
+				  <img src="img/shipping.svg" alt="">
+				  <h4>Envío gratis desde $ 3.500</h4>
+				  <p>Solo por estar registrado en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+				  <a href="">Conocé más sobre este beneficio</a>
+				</div>
+				<hr>
+				<div class="info-item">
+				  <img src="img/protected.svg" alt="">
+				  <h4>Seguridad, de principio a fin</h4>
+				  <p>¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</p>
+				  <a href="">Cómo te protegemos</a>
+				</div>
+		  </div>
+		  <div class="info-secundaria">
+				<div class="info-sec-item">
+				  <span>Botón de arrepentimiento</span>
+				  <a href="">Cancelar una compra</a>
+				  <a href="">Cancelar una suscripción</a>
+				</div>
+				<div class="info-sec-item">
+				  <span>Conocé las normas que aplican cuando comprás</span>
+				  <a href="">Ver contratos de adhesión - Ley N.º 24.240 de Defensa del Consumidor</a>
+				</div>
+		  </div>
+		  <div class="finance-info">
+	      <img src="img/banner_usuarios_financieros.svg" alt="">
+	      <img src="img/data-fiscal-6dc7613071.png" alt=""> 
+		  </div>
+		</section>
+		<!-- FOOTER -->
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

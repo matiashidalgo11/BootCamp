@@ -1,0 +1,85 @@
+.subs-benefits {
+	background-color: #fff;
+}
+
+.subs-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background: linear-gradient(135deg, #ff06d5, #0e1b50);
+	color: #fff;
+}
+
+.sub-level > h3,
+.sub-price > h3 {
+	color: #fff;
+}
+
+.sub-price {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.subs-description > p {
+	padding: 10px;
+	color: rgba(0,0,0,0.8);
+}
+
+.subs-includes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	overflow: hidden;
+}
+
+.subs-includes-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 400px;
+	color: rgba(0,0,0,0.8);
+	padding: 0 30px;
+}
+
+.subs-includes-item-img {
+	width: 20%;
+}
+
+.subs-includes-item-description {
+	width: 80%;
+}
+
+.subs-img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.subs-subscribe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.subscribe-info > p {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-subscribe {
+	background-color: var(--color-blue);
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 4px;
+	transition: all .2s ease-in-out;
+	font-weight: bold;
+}
+
+.btn-subscribe:hover {
+	background-color: lightblue;
+}

@@ -1,0 +1,25 @@
+@import './global.css';
+
+@import './general.css';
+
+@import './common.css';
+
+@import './nav.css';
+
+@import './carrousel.css';
+
+@import './payment.css';
+
+@import './lastvisits.css';
+
+@import './basedvisits.css';
+
+@import './subscriptionbenefits.css';
+
+@import './pointsbenefits.css';
+
+@import './popularcategories.css';
+
+@import './paymentsteps.css';
+
+@import './footer.css';
