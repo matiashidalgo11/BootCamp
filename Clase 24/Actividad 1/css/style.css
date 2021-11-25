@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+:root{
+    --active:#EDF0F7;
+    --img1:#2A3B79;
+    --img2:#EBEEF5;
+    --img3:#FCB984;
+    --img4: #F7E09C;
+    --img5:#8BB6E0;
+    --img6:#A7D6D0;
+}
+
+
+/*Menu*/
+
+nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 0 0;
+    position: relative;
+}
+
+nav .menu span{
+
+    margin: 0 0 0 5px;
+    font-size: 1.2rem;
+}
+
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options-menu{
+    
+    position: absolute;
+    top: 100%;
+    transform: translateX(-15%);
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--active);
+
+}
+
+.options-menu .options{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options-menu .options a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: var(--active);
+}
+
+/* Images */
+
+#img1{
+    background-color: var(--img1);
+}
+
+#img2{
+    background-color: var(--img2);
+}
+
+#img3{
+    background-color: var(--img3);
+}
+
+#img4{
+    background-color: var(--img4);
+}
+
+#img5{
+    background-color: var(--img5);
+}
+
+#img6{
+    background-color: var(--img6);
+}
+
+/* MOBILE */
+/* ======================================= */
+
+/* Nav Mobile */
+@media (max-width:768px){
+
+    
+
+    nav{
+        
+        margin: 0 auto 20px auto;
+        padding: 30px 10px 0 10px;
+    }
+
+    nav .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    nav .menu span{
+        margin-left: 5px;
+    }
+
+    .options-menu{
+        height: 100vh;
+    }
+
+    .options-menu .options{
+
+        display: flex;
+        height: 90%;
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .options-menu .options a{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        font-size: 2.5rem;
+
+        width: 100%;
+        height: 16.66%;
+
+    }
+
+    .options-menu .redes-menu{
+
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+
+    .options-menu .redes-menu i{
+        margin: 10px 20px 0 20px;
+    }
+    
+}
+
+/* Main Mobile */
+@media (max-width:768px){
+
+    h1{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 3rem;
+    }
+
+    span{
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .container-images{
+        width: 100%;
+    }
+
+    .item-img{
+
+        display: flex;
+
+        width: 95%;
+        height: 200px;
+        margin: 6px auto;
+        border-radius: 15px;
+    }
+
+    .item-img img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .info-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 0 15px 15px;
+    }
+
+    .info-img span{
+
+        text-align: left;
+        margin: 0 0;
+        
+    }
+
+    .info-img h3{
+        margin: 10px 0;
+    }
+
+}
+
+/* Footer Mobile */
+
+@media (max-width:768px){
+
+    .izq-description{
+        width: 94%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .izq-description p{
+        display: none;
+    }
+
+    .der-description h3{
+
+        width: 94%;
+        margin: 50px auto;
+        color: orange;
+
+    }
+    .der-description h3 i{
+        font-size: 0.8rem;
+    }
+
+    .opcions-description{
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .group-options{
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .group-options a{
+        width: 50%;
+        text-decoration: none;
+        font-weight: 700;
+        color: black;
+    }
+
+    .container-redes-legal{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .col-legal{
+        display: flex;
+    }
+
+    .col-legal span{
+    
+        margin: 5px 10px 0 0;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes i{
+        font-size: 1.2rem;
+        margin-right: 20px;
+    }
+
+    .redes span{
+        text-align: left;
+        padding-bottom:50px;
+    }
+
+
+}
+
+/* ======================================= */
+
+
+/* DESKTOP */
+/* ======================================= */
+
+/* Nav Desktop */
+@media (min-width:769px){
+
+    nav{
+        
+        margin: 0 auto;
+        padding: 20px 15% 0 15%;
+    }
+
+    .options-menu{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .options{
+        margin-top: 40px;
+        display: flex;
+        height: 60%;
+    }
+
+    .options a{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 16.6%;
+        font-size: 3rem;
+
+    }
+
+    .redes-menu{
+        font-size: 2rem;
+        width: 70%;
+        margin: 10% auto 0 auto;
+    }
+
+    .redes-menu i{
+        margin-right: 50px;
+    }
+
+}
+
+/* Main Mobile */
+@media (min-width:769px){
+
+    h1{
+        text-align: center;
+        font-size: 5rem;
+        margin: 20px 0;
+    }
+
+    span{
+        display: block;
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 10px 0 100px 0;
+    }
+
+    .container-images{
+
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 400px;
+        grid-template-areas: 
+        
+        "a a b b"
+        "c c b b"
+        "c c d d"
+        "e e e e"
+        ;
+
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #img1{
+        grid-area: a;
+    }
+
+    #img2{
+        grid-area: b;
+    }
+
+    #img3{
+        grid-area: c;
+    }
+
+    #img4{
+        grid-area: d;
+    }
+
+    .container-flex-grid{
+        grid-area: e;
+        display: flex;
+    }
+
+    #img5{
+        width: 40%;
+    }
+
+    #img6{
+        width: 60%;
+    }
+
+    .item-img{
+        display: flex;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .item-img .info-img{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 50%;
+        padding: 30px 30px;
+    }
+
+    .info-img span{
+        margin: 0;
+        text-align: left;
+    }
+
+    .item-img img{
+        width: 50%;
+    }
+
+
+
+
+
+}
+
+/* Footer Mobile */
+@media (min-width:769px){
+
+    footer{
+        margin-top: 100px;
+    }
+    
+    .description{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .izq-description, .der-description{
+        width: 50%;
+    }
+
+    .izq-description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .izq-description img{
+        margin: 100px 0 35px 0;
+        width: 180px;
+    }
+
+    .izq-description p{
+        font-size: 2rem;
+        padding: 0 200px 0 0;
+    }
+
+    .der-description h3{
+
+        margin-top: 100px;
+        color: orange;
+    }
+
+    .opcions-description{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0 0 0;
+    }
+
+    .group-options{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-options a{
+
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 35px;
+        font-weight: 700;
+    }
+
+    .container-redes-legal{
+        display: flex;
+        padding-top: 100px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .redes, .legal{
+        width: 50%;
+    }
+
+    .container-redes-legal span{
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    .redes{
+        display: flex;
+
+    }
+
+    .redes i{
+        font-size: 1.5rem;
+        margin-right: 50px;
+    }
+
+    .redes span{
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .legal{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-legal{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .legal span{
+        font-size: 1rem;
+        text-align: left;
+    }
+}
+
+/* ======================================= */
+
+.disabled{
+    display: none;
+}
+
+.active{
+    background-color: var(--active);
+}
