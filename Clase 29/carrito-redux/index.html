@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redux</title>
+
+    <link rel='stylesheet' type='text/css' media='screen'href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://unpkg.com/redux@latest/dist/redux.min.js"></script>
+</head>
+<body>
+
+    <!-- <nav class="nav-bar">
+        <i class="fas fa-search-dollar"></i>
+
+        <div class="options-nav-bar">
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+            <a href=""><i class="fas fa-user"></i></a>
+        </div>
+       
+    </nav> -->
+
+    <div class="container-cards">
+        <div id="producto-1" class="card">
+            <div class="img-card"><img src="https://http2.mlstatic.com/D_NQ_NP_764246-MLA45232947570_032021-O.webp" alt="Imagen Card" class="img-card"></div>
+            <h3 class="name-card">Producto 1</h3>
+            <p class="description-card">Lorem ipsum dolor orum redasdasdsadadadasdadadadassa</p>
+            
+            <div class="price-add-card">
+                <span class="price-card">$21</span>
+                <button class="add-card"><i class="far fa-plus-square"></i></button>
+            </div>
+            
+        </div>
+        <div id="producto-2" class="card">
+            <div class="img-card"><img src="https://http2.mlstatic.com/D_NQ_NP_764246-MLA45232947570_032021-O.webp" alt="Imagen Card" class="img-card"></div>
+            <h3 class="name-card">Producto 2</h3>
+            <p class="description-card">Lorem ipsum dolor orum redasdasdsadadadasdadadadassa</p>
+            
+            <div class="price-add-card">
+                <span class="price-card">$21</span>
+                <button class="add-card"><i class="far fa-plus-square"></i></button>
+            </div>
+            
+        </div>
+        <div id="producto-3" class="card">
+            <div class="img-card"><img src="https://http2.mlstatic.com/D_NQ_NP_764246-MLA45232947570_032021-O.webp" alt="Imagen Card" class="img-card"></div>
+            <h3 class="name-card">Producto 3</h3>
+            <p class="description-card">Lorem ipsum dolor orum redasdasdsadadadasdadadadassa</p>
+            
+            <div class="price-add-card">
+                <span class="price-card">$21</span>
+                <button class="add-card"><i class="far fa-plus-square"></i></button>
+            </div>
+            
+        </div>
+        <div id="producto-4" class="card">
+            <div class="img-card"><img src="https://http2.mlstatic.com/D_NQ_NP_764246-MLA45232947570_032021-O.webp" alt="Imagen Card" class="img-card"></div>
+            <h3 class="name-card">Producto 4</h3>
+            <p class="description-card">Lorem ipsum dolor orum redasdasdsadadadasdadadadassa</p>
+            
+            <div class="price-add-card">
+                <span class="price-card">$21</span>
+                <button class="add-card"><i class="far fa-plus-square"></i></button>
+            </div>
+            
+        </div>
+
+        <div id="producto-5" class="card">
+            <div class="img-card"><img src="https://http2.mlstatic.com/D_NQ_NP_764246-MLA45232947570_032021-O.webp" alt="Imagen Card" class="img-card"></div>
+            <h3 class="name-card">Producto 5</h3>
+            <p class="description-card">Lorem ipsum dolor orum redasdasdsadadadasdadadadassa</p>
+            
+            <div class="price-add-card">
+                <span class="price-card">$21</span>
+                <button class="add-card"><i class="far fa-plus-square"></i></button>
+            </div>
+            
+        </div>
+
+        
+    </div>
+
+    <div>
+        <p>
+            Usuarios: <span id="response">0</span>
+            <br><br><br>
+            <div>
+                <section>
+                    
+                    <input type="text" name="email" id="email" placeholder="email">
+                </section>
+                <section>
+                    <input type="text" name="pass" id="pass" placeholder="pass">
+
+                </section>
+                <section>
+                    <input type="text" name="name" id="name" placeholder="name">
+
+                </section>
+                <section>
+                    <input type="text" name="lastname" id="lastname" placeholder="lastname">
+
+                </section>
+                <br><br>
+                <section>
+                    
+                    <button id="crear"><h3> Crear perfil </h3></button>
+                    <<!-- button id="editar"><h3> Editar Perfil </h3></button>
+                    <button id="borrar"><h3> Borrar Perfil </h3></button> -->
+
+                </section>
+            </div>
+        </p>
+    </div>
+    <br><br>
+
+    <h4>Login</h4>
+    <section>
+                    
+        <input type="text" name="emailLogin" id="emailLogin" placeholder="email">
+    </section>
+    <section>
+        <input type="password" name="passLogin" id="passLogin" placeholder="pass">
+
+    </section>
+    <button id="login"><h3> Log in </h3></button>
+
+    <span id="userActivo">No hay ningun usuario Conectado</span>
+
+    <br><br>
+    <div>
+        <h4>Carrito de <span id="userCarrito">Nadie</span></h4>
+        <p>Cantidad de Productos en el Carrito: <span id="cantProductos">0</span></p>
+            <ul id="listaCarrito">
+                <li>-----------</li>
+            </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* NavBar */
+
+.nav-bar{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fa-search-dollar, .fa-user, .fa-shopping-cart{
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+/* Card */
+
+.card{
+    border: 1px solid red;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(243, 229, 219);
+    margin: 10px ;
+}
+
+.img-card{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.name-card{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.description-card{
+
+    height: 20%;
+    font-size: 0.8rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.price-add-card{
+
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price-card{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.add-card{
+    border: none;
+    font-size: 1.5rem;
+}
+
+/* Container Cards */
+
+.container-cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
